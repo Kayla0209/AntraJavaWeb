@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JEEDemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JEEDemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JEEDemo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JEEDemo:war exploded" />
+    </root>
+  </artifact>
+</component>
